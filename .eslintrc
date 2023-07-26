@@ -1,0 +1,49 @@
+{
+  "extends": [
+    "eslint-config-airbnb-base",
+    "eslint-config-prettier"
+  ],
+  "rules": {
+    "no-implicit-globals": "error",
+    "object-curly-spacing": "off",
+    "object-curly-newline": "off",
+    "import/prefer-default-export": "off",
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
+    "no-console":"off",
+    "max-len": [
+      "error",
+      {
+        "code": 120
+      }
+    ],
+    "comma-dangle": "off",
+    "arrow-parens": [
+      "error",
+      "as-needed"
+    ],
+    "no-void": [
+      "error",
+      {
+        "allowAsStatement": true
+      }
+    ],
+    "no-plusplus": [
+      "error",
+      {
+        "allowForLoopAfterthoughts": true
+      }
+    ]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": [
+          "src"
+        ]
+      }
+    }
+  },
+  "env": {
+    "browser": true
+  }
+}

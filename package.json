@@ -1,0 +1,27 @@
+{
+  "name": "static-site-starter",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Andrei KAndratsenka",
+  "license": "MIT",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "2.26.0",
+    "prettier": "^3.0.0",
+    "sass": "^1.64.1",
+    "vite": "^4.4.6",
+    "vite-plugin-full-reload": "^1.0.5",
+    "vite-plugin-handlebars": "^1.6.0"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "singleQuote": true,
+    "arrowParens": "avoid"
+  }
+}
